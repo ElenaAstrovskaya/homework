@@ -8,9 +8,9 @@ public class switchconstruction {
         System.out.print("Enter n = ");
         int n = scanner.nextInt();
 
-        if (n > 10) {
+        if (n > 10 | n == 10) {
             System.out.println("False");
-        } else if (n <= 10) {
+        } else if (n < 10) {
             switch (n) {
                 case 1:
                     System.out.print("Monday");
@@ -38,5 +38,4 @@ public class switchconstruction {
             }
         }
     }
-
 }
