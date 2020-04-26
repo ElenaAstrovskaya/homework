@@ -15,46 +15,55 @@ public class Card {
         this.CCV = CCV;
     }
 
-    public class Validator {
+    public void validateDisplay() {
 
-        public void validateNumber() {
-            if (number.length() != 16) {
-                System.out.println("Card number is incorrect");
-            } else {
-                System.out.println("Card number is correct");
+        class Validator {
+
+            public void validateNumber() {
+                if (number.replaceAll(" ", "").length() != 16) {
+                    System.out.println("Card number is incorrect");
+                } else {
+                    System.out.println("Card number is correct");
+                }
+            }
+
+            public void validateType() {
+                if (type == "Visa" || type == "MasterCard") {
+                    System.out.println("Card type is correct");
+                } else {
+                    System.out.println("Card number is incorrect");
+                }
+            }
+
+            public void validateOwner() {
+                if (owner.trim().length() != 0) {
+                    System.out.println("Card owner is correct");
+                } else {
+                    System.out.println("Card number is incorrect");
+                }
+            }
+
+            void validateTerminate() {
+                if (terminate.length() != 5) {
+                    System.out.println("Card termin is incorrect");
+                } else {
+                    System.out.println("Card termin is correct");
+                }
+            }
+
+            public void validateCCV() {
+                if (String.valueOf(CCV).length() == 3) {
+                    System.out.println("CCV number is correct");
+                } else {
+                    System.out.println("CCV number is incorrect");
+                }
             }
         }
-
-        public void validateType() {
-            if (type == "Visa" | type == "MasterCard") {
-                System.out.println("Card type is correct");
-            } else {
-                System.out.println("Card number is incorrect");
-            }
-        }
-
-        public void validateOwner() {
-            if (owner.trim().length() != 0) {
-                System.out.println("Card owner is correct");
-            } else {
-                System.out.println("Card number is incorrect");
-            }
-        }
-
-        public void validateTerminate() {
-            if (terminate.length() != 5) {
-                System.out.println("Card termin is incorrect");
-            } else {
-                System.out.println("Card termin is correct");
-            }
-        }
-
-        public void validateCCV() {
-            if (String.valueOf(CCV).length() == 3) {
-                System.out.println("CCV number is correct");
-            } else {
-                System.out.println("CCV number is incorrect");
-            }
-        }
+        Validator validator = new Validator();
+        validator.validateNumber();
+        validator.validateType();
+        validator.validateOwner();
+        validator.validateTerminate();
+        validator.validateCCV();
     }
 }
