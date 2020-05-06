@@ -8,15 +8,7 @@ public class Main {
 
         try {
             circle.calculateSquare();
-        } catch (ShapeIncorrectException e) {
-            e.printStackTrace();
-        }
-        try {
             triangle.calculateSquare();
-        } catch (ShapeIncorrectException e) {
-            e.printStackTrace();
-        }
-        try {
             rectangle.calculateSquare();
         } catch (ShapeIncorrectException e) {
             e.printStackTrace();

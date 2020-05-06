@@ -1,6 +1,7 @@
 package hw4.Animal;
 
 public class Feline implements IAnimal{
+
     @Override
     public void eatenBy() {
     }

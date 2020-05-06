@@ -8,7 +8,7 @@ public interface IAnimal {
 
     void speak();
 
-    void eatenBy();
+    default void eatenBy(){};
 
     void eat();
 }

@@ -1,6 +1,7 @@
 package hw4.Animal;
 
 public class Сanine implements IAnimal{
+
     @Override
     public void info() {
         System.out.println("Family type is Canine");
