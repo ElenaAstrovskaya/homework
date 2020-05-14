@@ -28,6 +28,7 @@ public class Main {
         Desk desk = new Desk();
         desk.addCustomer(customer1);
         desk.newCustomer();
+        desk.layOutProducts(customer1);
         System.out.print("Your amount is ");
         desk.sum(customer1);
         desk.deleteCustomer();
@@ -35,6 +36,7 @@ public class Main {
 
         desk.addCustomer(customer2);
         desk.newCustomer();
+        desk.layOutProducts(customer2);
         System.out.print("Your amount is ");
         desk.sum(customer2);
         desk.deleteCustomer();
@@ -42,6 +44,7 @@ public class Main {
 
         desk.addCustomer(customer3);
         desk.newCustomer();
+        desk.layOutProducts(customer3);
         System.out.print("Your amount is ");
         desk.sum(customer3);
         desk.deleteCustomer();

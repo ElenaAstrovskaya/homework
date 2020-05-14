@@ -5,7 +5,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Desk {
-
     Queue<Customer> queue = new LinkedList<>();
 
     void addCustomer(Customer customer){
@@ -18,10 +17,18 @@ public class Desk {
         System.out.println("Customer is come");
     }
 
+    void layOutProducts(Customer customer){
+        System.out.print("I want to buy: ");
+        ArrayList<Product> list = customer.getList();
+        for (Product l : list) {
+            System.out.print(l.getName() + " ");
+        }
+        System.out.println();
+    }
+
     void sum(Customer customer) {
         double sum = 0;
-        ArrayList<Product> list;
-        list = customer.getList();
+        ArrayList<Product> list = customer.getList();
         for (Product l : list) {
             sum += l.getPrice();
         }
