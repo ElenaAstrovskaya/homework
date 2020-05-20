@@ -1,11 +1,10 @@
 package hw6.CashDesk;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.PriorityQueue;
 
-public class Desk {
-    Queue<Customer> queue = new LinkedList<>();
+public class Desk{
+    PriorityQueue<Customer> queue = new PriorityQueue<>();
 
     void addCustomer(Customer customer){
         queue.add(customer);
