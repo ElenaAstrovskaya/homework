@@ -12,7 +12,7 @@ public class RegexpData {
 
         boolean res = date.matches("(\\d{4}/\\d{2}/\\d{2}\\s\\d{2}:\\d{2}:\\d{2})");
 
-        if(res == true) {
+        if(res) {
             System.out.println("The data and time are in the correct format");
         } else {
             System.out.println("The data and time are not in the correct format");
