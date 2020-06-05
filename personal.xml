@@ -9,36 +9,3 @@
         <employee name="Mary" surname="Brown" position="Nurse" department="Therapy" experience="10"/>
     </personal>
 </institution>
-
-
-        <!--		</employee>-->
-        <!--		<employee>-->
-        <!--			<name>Anna</name>-->
-        <!--			<surname>Hope</surname>-->
-        <!--			<position>Doctor</position>-->
-        <!--			<department>Surgery</department>-->
-        <!--			<experience>4</experience>-->
-        <!--		</employee>-->
-        <!--		<employee>-->
-        <!--			<name>Bob</name>-->
-        <!--			<surname>Johnson</surname>-->
-        <!--			<position>Nurse</position>-->
-        <!--			<department>Cardiology</department>-->
-        <!--			<experience>5</experience>-->
-        <!--		</employee>-->
-        <!--		<employee>-->
-        <!--			<name>Rose</name>-->
-        <!--			<surname>Jackson</surname>-->
-        <!--			<position>Nurse</position>-->
-        <!--			<department>Pulmonology</department>-->
-        <!--			<experience>1</experience>-->
-        <!--		</employee>-->
-        <!--		<employee>-->
-        <!--			<name>Mary</name>-->
-        <!--			<surname>Brown</surname>-->
-        <!--			<position>Nurse</position>-->
-        <!--			<department>Therapy</department>-->
-        <!--			<experience>10</experience>-->
-        <!--		</employee>-->
-        <!--        </employees>-->
-        <!--</institution>-->
