@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<institution>
+    <name>hospital</name>
+    <personal>
+        <employee name="John" surname="Smit" position="Doctor" department="Cardiology" experience="20"/>
+        <employee name="Anna" surname="Hope" position="Doctor" department="Surgery" experience="4"/>
+        <employee name="Bob" surname="Johnson" position="Nurse" department="Cardiology" experience="5"/>
+        <employee name="Rose" surname="Jackson" position="Nurse" department="Pulmonology" experience="1"/>
+        <employee name="Mary" surname="Brown" position="Nurse" department="Therapy" experience="10"/>
+    </personal>
+</institution>
